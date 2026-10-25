@@ -1,3 +1,4 @@
+// ignore_for_file: avoid_print
 // 1️⃣ Abstraction & Encapsulation
 abstract class Product {
   final String name;

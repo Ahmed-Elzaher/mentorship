@@ -1,0 +1,108 @@
+{
+  "@@locale": "en",
+  "appTitle": "Lumina Store",
+  "letsSignIn": "Let's Sign You In",
+  "welcomeBack": "Welcome back, you've been missed!",
+  "emailAddress": "Email Address",
+  "enterEmail": "Enter your email",
+  "password": "Password",
+  "enterPassword": "Enter your password",
+  "createPassword": "Create a password",
+  "signIn": "Sign In",
+  "dontHaveAccount": "Don't have an account? ",
+  "signUp": "Sign Up",
+  "createAccount": "Create Account",
+  "signUpSubtitle": "Sign up to get started and explore great products!",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "register": "Register",
+  "alreadyHaveAccount": "Already have an account? ",
+  "otpVerification": "OTP Verification",
+  "otpSentTo": "We have sent a 6-digit verification code to:\n{email}",
+  "@otpSentTo": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "verificationCode": "Verification Code (OTP)",
+  "enterOtp": "Enter OTP",
+  "verifyCode": "Verify Code",
+  "loginSuccess": "Logged in successfully! Welcome.",
+  "registerSuccess": "Account created successfully! Please verify your email.",
+  "verifySuccess": "Account verified successfully! You can sign in now.",
+  "sessionRefreshed": "Session refreshed successfully!",
+  "sessionRefreshFailed": "Failed to refresh session: {message}",
+  "@sessionRefreshFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "emailRequired": "Email is required",
+  "invalidEmail": "Invalid email format",
+  "passwordRequired": "Password is required",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "fieldRequired": "This field is required",
+  "otpRequired": "OTP code is required",
+  "searchHint": "Search streetwear, accessories...",
+  "categories": "Categories",
+  "all": "All",
+  "products": "Products",
+  "itemsCount": "{count} items",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noProductsFound": "No products match your search",
+  "errorLoadingData": "Error loading data",
+  "retry": "Retry",
+  "productDetails": "Product Details",
+  "inStock": "In Stock ({count})",
+  "@inStock": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "outOfStock": "Out of Stock",
+  "reviewsCount": "{count} reviews",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "description": "Description",
+  "noDescription": "No description provided for this item.",
+  "addToCart": "Add to Cart",
+  "addedToCart": "Added {name} to cart!",
+  "@addedToCart": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteProduct": "Delete Product",
+  "confirmDeleteTitle": "Confirm Deletion",
+  "confirmDeleteMessage": "Are you sure you want to delete \"{name}\"?",
+  "@confirmDeleteMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "deleteSuccess": "Product deleted successfully!",
+  "logout": "Logout"
+}

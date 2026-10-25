@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mentorship/core/theme/app_colors.dart';
+import 'package:mentorship/core/theme/app_text_styles.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({
@@ -18,6 +20,7 @@ class CustomButton extends StatelessWidget {
     this.alignment,
     this.elevation,
     this.shape,
+    this.icon,
     this.enabled = true,
     this.isLoading = false,
   });
@@ -36,42 +39,54 @@ class CustomButton extends StatelessWidget {
   final AlignmentGeometry? alignment;
   final double? elevation;
   final OutlinedBorder? shape;
+  final Widget? icon;
   final bool enabled;
   final bool isLoading;
 
   @override
   Widget build(BuildContext context) {
+    final effectiveBg = backgroundColor ?? AppColors.primary;
+    final effectiveTextColor = textColor ??
+        (effectiveBg == AppColors.primary ? AppColors.textDark : Colors.white);
+
     return SizedBox(
       width: width ?? double.infinity,
-      height: height ?? 52,
+      height: height ?? 54.h,
       child: ElevatedButton(
         onPressed: (isLoading || !enabled) ? null : onPressed,
         style: ElevatedButton.styleFrom(
-          backgroundColor: backgroundColor ?? AppColors.primary,
+          backgroundColor: effectiveBg,
           elevation: elevation ?? 0,
+          alignment: alignment,
+          padding: padding ?? EdgeInsets.symmetric(horizontal: 16.w),
           shape: shape ??
               RoundedRectangleBorder(
-                borderRadius: borderRadius ?? BorderRadius.circular(12),
+                borderRadius: borderRadius ?? BorderRadius.circular(16.r),
               ),
-          padding: padding,
         ),
         child: isLoading
-            ? const SizedBox(
-                height: 24,
-                width: 24,
+            ? SizedBox(
+                height: 22.h,
+                width: 22.w,
                 child: CircularProgressIndicator(
-                  color: Colors.white,
+                  color: effectiveTextColor,
                   strokeWidth: 2.5,
                 ),
               )
             : child ??
-                Text(
-                  text ?? '',
-                  style: TextStyle(
-                    color: textColor ?? Colors.white,
-                    fontSize: fontSize ?? 16,
-                    fontWeight: fontWeight ?? FontWeight.bold,
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      text ?? '',
+                      style: AppTextStyles.button(color: effectiveTextColor),
+                    ),
+                    if (icon != null) ...[
+                      SizedBox(width: 8.w),
+                      icon!,
+                    ],
+                  ],
                 ),
       ),
     );
