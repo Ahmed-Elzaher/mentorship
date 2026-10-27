@@ -8,9 +8,9 @@ UI designs created in Stitch.
 
 ### Onboarding
 
-| Splash | Onboarding 1 | Onboarding 2 | Onboarding 3 |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/splash_screen.png" width="180" alt="Splash"> | <img src="docs/screenshots/onboarding_screen_1.png" width="180" alt="Onboarding 1"> | <img src="docs/screenshots/onboarding_screen_2.png" width="180" alt="Onboarding 2"> | <img src="docs/screenshots/onboarding_screen_3.png" width="180" alt="Onboarding 3"> |
+| Splash | Onboarding 1 |
+|:---:|:---:|
+| <img src="docs/screenshots/splash_screen.png" width="180" alt="Splash"> | <img src="docs/screenshots/onboarding_screen_1.png" width="180" alt="Onboarding 1"> |
 
 ### Authentication
 
@@ -28,35 +28,31 @@ UI designs created in Stitch.
 |:---:|:---:|:---:|:---:|
 | <img src="docs/screenshots/home.png" width="180" alt="Home"> | <img src="docs/screenshots/products_by_category_screen.png" width="180" alt="Products by Category"> | <img src="docs/screenshots/search_filters_screen.png" width="180" alt="Search Filters"> | <img src="docs/screenshots/no_search_results_discovery_screen.png" width="180" alt="No Search Results"> |
 
-| Product Details | Write a Review | Wishlist |
-|:---:|:---:|:---:|
-| <img src="docs/screenshots/product_details.png" width="180" alt="Product Details"> | <img src="docs/screenshots/write_a_review_screen.png" width="180" alt="Write a Review"> | <img src="docs/screenshots/wishlist_screen.png" width="180" alt="Wishlist"> |
+| Product Details |
+|:---:|
+| <img src="docs/screenshots/product_details.png" width="180" alt="Product Details"> |
 
 ### Cart & Checkout
 
-| Shopping Cart | Empty Cart | Checkout & Payment | Payment Failed |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/shopping_cart_screen.png" width="180" alt="Shopping Cart"> | <img src="docs/screenshots/empty_cart_recommendations_screen.png" width="180" alt="Empty Cart"> | <img src="docs/screenshots/checkout_payment_screen.png" width="180" alt="Checkout & Payment"> | <img src="docs/screenshots/payment_failed_error_state.png" width="180" alt="Payment Failed"> |
-
-| Order Success & Tracking |
-|:---:|
-| <img src="docs/screenshots/order_success_tracking_screen.png" width="180" alt="Order Success & Tracking"> |
+| Empty Cart | Payment Failed |
+|:---:|:---:|
+| <img src="docs/screenshots/empty_cart_recommendations_screen.png" width="180" alt="Empty Cart"> | <img src="docs/screenshots/payment_failed_error_state.png" width="180" alt="Payment Failed"> |
 
 ### Orders
 
-| Order History | Order Details | Return & Refund |
-|:---:|:---:|:---:|
-| <img src="docs/screenshots/order_history_screen.png" width="180" alt="Order History"> | <img src="docs/screenshots/order_details_screen.png" width="180" alt="Order Details"> | <img src="docs/screenshots/return_refund_request.png" width="180" alt="Return & Refund"> |
+| Order Details | Return & Refund |
+|:---:|:---:|
+| <img src="docs/screenshots/order_details_screen.png" width="180" alt="Order Details"> | <img src="docs/screenshots/return_refund_request.png" width="180" alt="Return & Refund"> |
 
 ### Account
 
-| Profile | Edit Profile | Shipping Addresses | Add Address |
+| Edit Profile | Shipping Addresses | Add Address | Payment Methods |
 |:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/user_profile_screen.png" width="180" alt="Profile"> | <img src="docs/screenshots/edit_profile_screen.png" width="180" alt="Edit Profile"> | <img src="docs/screenshots/shipping_addresses_screen.png" width="180" alt="Shipping Addresses"> | <img src="docs/screenshots/add_shipping_address_screen.png" width="180" alt="Add Address"> |
+| <img src="docs/screenshots/edit_profile_screen.png" width="180" alt="Edit Profile"> | <img src="docs/screenshots/shipping_addresses_screen.png" width="180" alt="Shipping Addresses"> | <img src="docs/screenshots/add_shipping_address_screen.png" width="180" alt="Add Address"> | <img src="docs/screenshots/payment_methods_screen.png" width="180" alt="Payment Methods"> |
 
-| Payment Methods | Vouchers & Offers | VIP Rewards | Notifications |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/payment_methods_screen.png" width="180" alt="Payment Methods"> | <img src="docs/screenshots/my_vouchers_offers.png" width="180" alt="Vouchers & Offers"> | <img src="docs/screenshots/lumina_vip_loyalty_rewards_screen.png" width="180" alt="VIP Rewards"> | <img src="docs/screenshots/notifications_screen.png" width="180" alt="Notifications"> |
+| Vouchers & Offers | VIP Rewards |
+|:---:|:---:|
+| <img src="docs/screenshots/my_vouchers_offers.png" width="180" alt="Vouchers & Offers"> | <img src="docs/screenshots/lumina_vip_loyalty_rewards_screen.png" width="180" alt="VIP Rewards"> |
 
 ### Support & States
 
