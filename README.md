@@ -4,15 +4,15 @@ A Flutter e-commerce app with email/password authentication, a product catalog, 
 
 ## Screenshots
 
-<!-- TODO: replace the placeholders below with the real screens exported from Stitch -->
+UI designs created in Stitch.
 
-| Login | Register | Verify Email |
+| Login | Register | Verify Account |
 |:---:|:---:|:---:|
-| ![Login](docs/screenshots/login.png) | ![Register](docs/screenshots/register.png) | ![Verify Email](docs/screenshots/verify_email.png) |
+| <img src="docs/screenshots/login.png" width="240" alt="Login"> | <img src="docs/screenshots/register.png" width="240" alt="Register"> | <img src="docs/screenshots/verify_email.png" width="240" alt="Verify Account"> |
 
 | Home | Product Details |
 |:---:|:---:|
-| ![Home](docs/screenshots/home.png) | ![Product Details](docs/screenshots/product_details.png) |
+| <img src="docs/screenshots/home.png" width="240" alt="Home"> | <img src="docs/screenshots/product_details.png" width="240" alt="Product Details"> |
 
 ## Features
 
